@@ -10,9 +10,9 @@ function getComputerChoice(){
 function getHumanChoice() {
     let human_input;
     do {
-        human_input = prompt("Choose rock, paper, or scissors:").toLowerCase(); // Ensure toLowerCase() is invoked
-    } while (!arr.includes(human_input)); // Check if the input is valid
-
+        human_input = prompt("Choose rock, paper, or scissors:").toLowerCase(); 
+    } while (!arr.includes(human_input)); 
+    
     return human_input;
 }
 
